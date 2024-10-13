@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #fff5e6;
+  color: #555;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #ff8c00;
+}
+
+button {
+  display: inline-block;
+  background: #ff8c00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background: #ffa500;
+}
+
+#quotesList, #testArea {
+  background: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(255, 140, 0, 0.1);
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #ff8c00;
+}
+
+#recordingStatus {
+  color: #ff8c00;
+  font-style: italic;
+}
+
+.quote-item {
+  border-bottom: 1px solid #ffd700;
+  padding: 10px 0;
+}
+
+.quote-item:last-child {
+  border-bottom: none;
+}
+
+.quote-text {
+  font-style: italic;
+}
+
+.quote-author {
+  font-weight: bold;
+  color: #ff8c00;
+}
